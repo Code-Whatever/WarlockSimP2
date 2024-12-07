@@ -106,10 +106,12 @@ function runSim(gearTable, baseLine, makeBaseLine) {
   }
   //console.log("TREOS:"+TREOS+" ZHC:"+ZHC+" TEOP:"+TOEP+" HCOD:"+HCOD+" REEL:"+REEL+" EOM:"+EOM); 
   //console.log(trinket1); console.log(trinket2)
-  var setT05 = 0, setT1 = 0, setT2 = 0, setT25 = 0, setT3 = 0, setZGRing = 0, setZG = 0, setAQ20 = 0, setPvPRare = 0, setPvPEpic = 0, setBV = 0, setUDC = 0;
+  var setT0 = 0, setT05 = 0, setT1 = 0, setT2 = 0, setT25 = 0, setT3 = 0, setZGRing = 0, setZG = 0, setAQ20 = 0, setPvPRare = 0, setPvPEpic = 0, setBV = 0, setUDC = 0;
   for (i=0; i<classList.length; i++) {
     if (classList[i] == "setT05")
       setT05++
+    else if (classList[i] == "setT0")
+      setT0++
     else if (classList[i] == "setT1")
       setT1++
     else if (classList[i] == "setT2")
