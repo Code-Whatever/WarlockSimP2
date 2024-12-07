@@ -134,6 +134,9 @@ function runSim(gearTable, baseLine, makeBaseLine) {
       setUDC++
   }
   var bonusList = "", bonusDrainLife = false, bonusShadowCost = false, bonusImmolateDMG = false, bonusShadowBoltCost = false, bonusCorruption = false, bonusCorruptionZG = false, bonusImmolatePvP = false, UDC = false;
+  if (setT0 >= 4) {
+    SP += 23;
+    bonusList += "<tr><td>Tier 0: 4-set</td></tr>";}
   if (setT05 >= 6) {
     SP += 23;
     bonusList += "<tr><td>Tier 0.5: 6-set</td></tr>";}
