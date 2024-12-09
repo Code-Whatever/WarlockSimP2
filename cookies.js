@@ -36,7 +36,7 @@ function loadCookie() {
   if (getCookie("warlockCount") !== "noCookie")
     document.getElementById("warlockCount").value = getCookie("warlockCount");
   
-  var buffArray = ["curseShadow", "shadowWeaving", "curseElements", "Scorch", "supremeFlask", "blessedOil", "brilliantOil", "arcaneElixir", "shadowElixir", "holiday", "fireElixir", 
+  var buffArray = ["curseShadow", "shadowWeaving", "curseElements", "Scorch", "supremeFlask", "blessedOil", "brilliantOil", "arcaneElixir", "greaterArcaneElixir", "shadowElixir", "holiday", "fireElixir", 
                    "manaPotion", "demonicRune", "runnTumTuber", "nightfinSoup", "magebloodPotion", "hakkarBuff", "onyxiaBuff", "songflower", "diremaulBuff", 
                    "tracesOfSilithus", "arcaneIntellect", "markOfTheWild", "moonkinAura", "blessingOfWisdom", "blessingOfKings", "manaSpringTotem"];
   for (i=0; i<buffArray.length; i++) {
